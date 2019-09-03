@@ -10,6 +10,15 @@ namespace LearningCollections
     {
         static void Main(string[] args)
         {
+            var names = new List<String> { "Joseph", "Mark", "Robert" };
+
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");
+                
+            }
+
+            Console.ReadLine();
         }
     }
 }
