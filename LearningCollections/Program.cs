@@ -18,7 +18,7 @@ namespace LearningCollections
 
             }
             
-            //Para a tela de comando não fechar
+            //Para a tela de comando não fechar teste
             Console.ReadLine();
         }
     }
