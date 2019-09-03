@@ -17,7 +17,8 @@ namespace LearningCollections
                 Console.WriteLine($"Hello {name.ToUpper()}!");
 
             }
-
+            
+            //Para a tela de comando não fechar
             Console.ReadLine();
         }
     }
