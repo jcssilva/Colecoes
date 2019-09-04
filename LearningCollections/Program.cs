@@ -18,7 +18,7 @@ namespace LearningCollections
 
             }
 
-            Console.WriteLine("Changin the List");
+            Console.WriteLine("Changing the List adding new itens\n");
             names.Add("Maria");
             names.Add("Bill");
             names.Remove("Ana");
@@ -26,6 +26,21 @@ namespace LearningCollections
             {
                 Console.WriteLine($"Hello {name.ToUpper()}!");
             }
+            Console.WriteLine($"The list has {names.Count} people in it\n");
+
+            names.Sort();
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name.ToUpper()}!");
+            }
+
+            //Searching e order
+            //var index = names.IndexOf("Felipe");
+            //if (index != -1)
+            //    Console.WriteLine($"The name {names[index]} is at index {index}");
+
+            //var notFound = names.IndexOf("Not Found");
+            //Console.WriteLine($"When an item is not found, IndexOf returns {notFound}");
             //Para a tela de comando não fechar teste New
             Console.ReadLine();
         }
